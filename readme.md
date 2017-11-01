@@ -198,7 +198,7 @@ Just swing your nunchucks.
 
 ## Authors
 
-* **M.Yasir Ali Shah** - *Initial work* - [PlaneApex](https://github.com/planetapex)
+* **M.Yasir Ali Shah** - *Initial work* - [PlanetApex](https://github.com/planetapex)
 
 <img src="./assets/Professortocat_v2.png" width="200" height="200" />
 
