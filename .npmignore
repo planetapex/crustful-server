@@ -1,0 +1,6 @@
+/.vscode
+/assets
+/libs/db.json
+/test
+/TODO
+/.travis.yml
