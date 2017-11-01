@@ -7,11 +7,7 @@ module.exports = function () {
         "description": "JSON Representation of Scott Schema",
         "type": "object",
         "properties": {
-            // "_id": {
-            //     "$ref": "#/definitions/positiveInt",
-            //     "id": "/properties/id"
-            // },
-            "comm": {
+           "comm": {
                 "default": 44,
                 "description": "Commission amount received by employee",
                 "examples": [
@@ -105,7 +101,6 @@ module.exports = function () {
             }
         },
         "required": [
-            // "_id",
             "empno",
             "ename",
             "job",
@@ -123,7 +118,7 @@ module.exports = function () {
             },
             "jobTitle": {
                 "type": "string",
-                "enum": ["CLERK", "ACCOUNTANT", "SUPERVISER"]
+                "enum": ["CLERK", "ACCOUNTANT","MANAGER", "ANALYST","SALESMAN"]
             },
             "deptNo": {
                 "type": "integer",
@@ -132,8 +127,8 @@ module.exports = function () {
             "empNo": {
 
                 "type": "integer",
-                "minimum": 7000,
-                "maximum": 7999,
+                "minimum": 1,
+                "maximum": 100000,
                 "multipleOf": 1,
                 "exclusiveMinimum": true
 

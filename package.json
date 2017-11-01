@@ -27,7 +27,9 @@
   "license": "MIT / GPL-3.0 / Apache-2.0",
   "devDependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
     "is-json": "^2.0.1",
+    "istanbul": "^0.4.5",
     "mocha": "^4.0.1"
   }
 }

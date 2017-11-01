@@ -43,7 +43,7 @@ You would require the following to run the server:
 After Installing Node.js, type the following command in the shell:
 
 ```
-npm install crustful -g
+npm install crustful-server -g
 ```
 The `-g` switch will install the package globally, which will make it available as a shell command in the system.
 
