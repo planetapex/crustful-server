@@ -2,13 +2,13 @@
 ![love](https://raw.github.com/janantala/love-heart/master/img/love.gif)
  [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-[![GitHub](https://img.shields.io/github/release/planetapex/apex-plugin-dynamicDateTimePicker.svg?style=flat-square)](https://github.com/planetapex/apex-plugin-dynamicDateTimePicker/releases)
-[![Travis CI](https://img.shields.io/travis/planetapex/apex-plugin-dynamicDateTimePicker.svg?style=flat-square)](https://travis-ci.org/planetapex/apex-plugin-dynamicDateTimePicker)
+[![GitHub](https://img.shields.io/github/release/planetapex/crustful-server.svg?style=flat-square)](https://github.com/planetapex/crustful-server/releases)
+[![Travis CI](https://img.shields.io/travis/planetapex/crustful-server.svg?style=flat-square)](https://travis-ci.org/planetapex/crustful-server)
 [![npm](https://img.shields.io/npm/v/package.svg?style=flat-square)](https://www.npmjs.org/package/package)
-[![GitHub](https://img.shields.io/github/issues/planetapex/apex-plugin-dynamicDateTimePicker.svg?style=flat-square)](https://github.com/planetapex/apex-plugin-dynamicDateTimePicker/issues)
-[![GitHub](https://img.shields.io/github/downloads/planetapex/apex-plugin-dynamicDateTimePicker/latest/total.svg?style=flat-square)](https://github.com/planetapex/apex-plugin-dynamicDateTimePicker)
+[![GitHub](https://img.shields.io/github/issues/planetapex/crustful-server.svg?style=flat-square)](https://github.com/planetapex/crustful-server/issues)
+[![GitHub](https://img.shields.io/github/downloads/planetapex/crustful-server/latest/total.svg?style=flat-square)](https://github.com/planetapex/crustful-server)
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![HitCount](http://hits.dwyl.com/planetapex/apex-plugin-dynamicDateTimePicker.svg)](http://hits.dwyl.com/planetapex/apex-plugin-dynamicDateTimePicker)
+[![HitCount](http://hits.dwyl.com/planetapex/crustful-server.svg)](http://hits.dwyl.com/planetapex/crustful-server)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 
@@ -114,7 +114,7 @@ This will set the default value for the port number question which you can accep
 
 ### Database
 
-If you want to access your database on the storage drive on windows it will be located in the global folder.
+If you want to access your database `db.json` on the storage drive  it will be located in the global folder.
 
 You can find the global folder by:
 
@@ -124,13 +124,13 @@ npm config get prefix
 
 However, AFAIK, on Windows:
 
-`%APPDATA%\npm\node_modules\crustful-server`
+`%APPDATA%\npm\node_modules\crustful-server\libs`
 
-i.e in user\app_data\roaming\npm\node_modules\crustful-server folder.
+i.e in user\app_data\roaming\npm\node_modules\crustful-server\libs folder.
 
 On other OS:
 
-`/usr/local/lib/node_modules/crustful-server`
+`/usr/local/lib/node_modules/crustful-server/libs`
 
 
 
