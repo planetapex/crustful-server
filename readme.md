@@ -14,11 +14,11 @@
 
 
 
-Crustful Server is developed to provide on-the-fly handy `Restful Mock Server` based on the Oracle's Scott emp Table.
+Crustful Server is developed to provide on-the-fly handy `RESTful Mock Server` based on the Oracle's Scott emp Table.
 
 It provides `GET` `POST` `PUT` `PATCH` `DELETE` `OPTIONS` **HTTP Methods** out of box.
 
-Note: This is a Mock Server for Restful API without the need of any database server. There is a Feature called `AutoRest` in Oracle Database which also provides a quick way to setup your API. AutoRest requires obviously the database and ORDS to run.
+Note: This is a Mock Server for RESTful API without the need of any database server. There is a Feature called `AutoRest` in Oracle Database which also provides a quick way to setup your API. AutoRest requires obviously the database and ORDS to run.
 
 ## RoadMap
 

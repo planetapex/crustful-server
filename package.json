@@ -1,11 +1,10 @@
 {
   "name": "crustful-server",
   "version": "1.0.4",
-  "description": "Crustful Server a RestFul Mock Server providing endpoint for the Oracle Scott Emp table ",
+  "description": "Crustful Server a RESTful Mock Server providing endpoint for the Oracle Scott Emp table ",
   "main": "app.js",
   "dependencies": {
     "chalk": "^2.3.0",
-    "chance": "^1.0.11",
     "clear": "0.0.1",
     "clui": "^0.3.6",
     "faker": "^4.1.0",
