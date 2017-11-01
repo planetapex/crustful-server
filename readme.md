@@ -4,12 +4,11 @@
 
 [![GitHub](https://img.shields.io/github/release/planetapex/crustful-server.svg?style=flat-square)](https://github.com/planetapex/crustful-server/releases)
 [![Travis CI](https://img.shields.io/travis/planetapex/crustful-server.svg?style=flat-square)](https://travis-ci.org/planetapex/crustful-server)
-[![npm](https://img.shields.io/npm/v/package.svg?style=flat-square)](https://www.npmjs.org/package/package)
+[![npm](https://img.shields.io/npm/v/package.svg?style=flat-square)](https://www.npmjs.org/package/crustful-server)
 [![GitHub](https://img.shields.io/github/issues/planetapex/crustful-server.svg?style=flat-square)](https://github.com/planetapex/crustful-server/issues)
 [![GitHub](https://img.shields.io/github/downloads/planetapex/crustful-server/latest/total.svg?style=flat-square)](https://github.com/planetapex/crustful-server)
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![HitCount](http://hits.dwyl.com/planetapex/crustful-server.svg)](http://hits.dwyl.com/planetapex/crustful-server)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 
 
