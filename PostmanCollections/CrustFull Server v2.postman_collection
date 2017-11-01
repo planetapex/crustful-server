@@ -1,0 +1,196 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CrustFull Server",
+		"_postman_id": "b87ced9c-458c-03d6-0543-4ca687a61d9a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Request",
+			"request": {
+				"url": "http://localhost:3000/emps/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST Request",
+			"request": {
+				"url": "http://localhost:3000/emps/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "empno",
+						"value": "1",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "ename",
+						"value": "hosta",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "job",
+						"value": "SWEEPER",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "sal",
+						"value": "10",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "comm",
+						"value": "1",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "mgr",
+						"value": "12",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "deptno",
+						"value": "10",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "empno",
+							"value": "",
+							"description": ""
+						},
+						{
+							"key": "ename",
+							"value": "M.Yasir Ali Shah",
+							"description": ""
+						},
+						{
+							"key": "job",
+							"value": "ACCOUNTANT",
+							"description": ""
+						},
+						{
+							"key": "sal",
+							"value": "100000",
+							"description": ""
+						},
+						{
+							"key": "comm",
+							"value": "10000",
+							"description": ""
+						},
+						{
+							"key": "mgr",
+							"value": "10",
+							"description": ""
+						},
+						{
+							"key": "deptno",
+							"value": "30",
+							"description": ""
+						}
+					]
+				},
+				"description": "Post Request"
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH Request",
+			"request": {
+				"url": "http://localhost:3000/emps/7139",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "empno",
+						"value": "7045",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "empno",
+							"value": "7045",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "ename",
+							"value": "M.Yasir Ali Shah",
+							"description": ""
+						},
+						{
+							"key": "job",
+							"value": "ACCOUNTANT",
+							"description": ""
+						},
+						{
+							"key": "sal",
+							"value": "100000",
+							"description": ""
+						},
+						{
+							"key": "comm",
+							"value": "10000",
+							"description": ""
+						},
+						{
+							"key": "mgr",
+							"value": "10",
+							"description": ""
+						},
+						{
+							"key": "deptno",
+							"value": "30",
+							"description": ""
+						}
+					]
+				},
+				"description": "PATCH Request"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Request",
+			"request": {
+				"url": "http://localhost:3000/emps/7704",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
